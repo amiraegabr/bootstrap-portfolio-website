@@ -13,10 +13,8 @@
 }
 
 /* global variables */
-
 .max-width-500{
     max-width: 500px;
-
 }
 section{
     padding: 100px 0;
@@ -257,4 +255,10 @@ header .scrollToBottom .circle{
 #blog .card-img:hover .layer{
         opacity: 1;
         transform: rotateY(0deg) scale(1);
+}
+
+/* contact form */
+.form-control:focus{
+        border-color: var(--main-color);
+        box-shadow: 0 0 0 0.25rem #e7687f5b;
 }
